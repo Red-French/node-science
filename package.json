@@ -1,0 +1,33 @@
+{
+  "name": "node-science",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Red-French/node-science.git"
+  },
+  "eslintConfig": {
+    "env": {
+      "node": true,
+      "es6": true,
+      "jquery": true,
+      "browser": true
+    },
+    "extends": [
+      "eslint:recommended"
+    ],
+    "rules": {
+      "no-console": 0
+    }
+  },
+  "author": "Red French",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Red-French/node-science/issues"
+  },
+  "homepage": "https://github.com/Red-French/node-science#readme"
+}
